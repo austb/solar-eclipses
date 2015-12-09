@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9310FCC1C18A7AF00CC1176 /* Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = D9310FC81C18A7AF00CC1176 /* Diffuse.png */; };
+		D9310FCD1C18A7AF00CC1176 /* Emission.png in Resources */ = {isa = PBXBuildFile; fileRef = D9310FC91C18A7AF00CC1176 /* Emission.png */; };
+		D9310FCE1C18A7AF00CC1176 /* Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = D9310FCA1C18A7AF00CC1176 /* Normal.png */; };
+		D9310FCF1C18A7AF00CC1176 /* Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = D9310FCB1C18A7AF00CC1176 /* Specular.png */; };
+		D9F67EEC1C1244FF00BB6791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F67EEB1C1244FF00BB6791 /* AppDelegate.swift */; };
+		D9F67EEE1C1244FF00BB6791 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F67EED1C1244FF00BB6791 /* GameView.swift */; };
+		D9F67EF01C1244FF00BB6791 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F67EEF1C1244FF00BB6791 /* GameViewController.swift */; };
+		D9F67EF21C1244FF00BB6791 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F67EF11C1244FF00BB6791 /* art.scnassets */; };
+		D9F67EF41C1244FF00BB6791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F67EF31C1244FF00BB6791 /* Assets.xcassets */; };
+		D9F67EF71C1244FF00BB6791 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F67EF51C1244FF00BB6791 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9310FC81C18A7AF00CC1176 /* Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diffuse.png; sourceTree = "<group>"; };
+		D9310FC91C18A7AF00CC1176 /* Emission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emission.png; sourceTree = "<group>"; };
+		D9310FCA1C18A7AF00CC1176 /* Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Normal.png; sourceTree = "<group>"; };
+		D9310FCB1C18A7AF00CC1176 /* Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Specular.png; sourceTree = "<group>"; };
+		D9F67EE81C1244FF00BB6791 /* SolarEclipses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarEclipses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F67EEB1C1244FF00BB6791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9F67EED1C1244FF00BB6791 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		D9F67EEF1C1244FF00BB6791 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D9F67EF11C1244FF00BB6791 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D9F67EF31C1244FF00BB6791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9F67EF61C1244FF00BB6791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D9F67EF81C1244FF00BB6791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F67EE51C1244FF00BB6791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9F67EDF1C1244FF00BB6791 = {
+			isa = PBXGroup;
+			children = (
+				D9F67EEA1C1244FF00BB6791 /* SolarEclipses */,
+				D9F67EE91C1244FF00BB6791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F67EE91C1244FF00BB6791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F67EE81C1244FF00BB6791 /* SolarEclipses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F67EEA1C1244FF00BB6791 /* SolarEclipses */ = {
+			isa = PBXGroup;
+			children = (
+				D9F67EEB1C1244FF00BB6791 /* AppDelegate.swift */,
+				D9F67EED1C1244FF00BB6791 /* GameView.swift */,
+				D9F67EEF1C1244FF00BB6791 /* GameViewController.swift */,
+				D9F67EF11C1244FF00BB6791 /* art.scnassets */,
+				D9F67EF31C1244FF00BB6791 /* Assets.xcassets */,
+				D9310FC81C18A7AF00CC1176 /* Diffuse.png */,
+				D9310FC91C18A7AF00CC1176 /* Emission.png */,
+				D9310FCA1C18A7AF00CC1176 /* Normal.png */,
+				D9310FCB1C18A7AF00CC1176 /* Specular.png */,
+				D9F67EF51C1244FF00BB6791 /* MainMenu.xib */,
+				D9F67EF81C1244FF00BB6791 /* Info.plist */,
+			);
+			path = SolarEclipses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F67EE71C1244FF00BB6791 /* SolarEclipses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F67EFB1C1244FF00BB6791 /* Build configuration list for PBXNativeTarget "SolarEclipses" */;
+			buildPhases = (
+				D9F67EE41C1244FF00BB6791 /* Sources */,
+				D9F67EE51C1244FF00BB6791 /* Frameworks */,
+				D9F67EE61C1244FF00BB6791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarEclipses;
+			productName = SolarEclipses;
+			productReference = D9F67EE81C1244FF00BB6791 /* SolarEclipses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F67EE01C1244FF00BB6791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Austin Blatt";
+				TargetAttributes = {
+					D9F67EE71C1244FF00BB6791 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D9F67EE31C1244FF00BB6791 /* Build configuration list for PBXProject "SolarEclipses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9F67EDF1C1244FF00BB6791;
+			productRefGroup = D9F67EE91C1244FF00BB6791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F67EE71C1244FF00BB6791 /* SolarEclipses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9F67EE61C1244FF00BB6791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9310FCD1C18A7AF00CC1176 /* Emission.png in Resources */,
+				D9310FCF1C18A7AF00CC1176 /* Specular.png in Resources */,
+				D9310FCC1C18A7AF00CC1176 /* Diffuse.png in Resources */,
+				D9F67EF41C1244FF00BB6791 /* Assets.xcassets in Resources */,
+				D9F67EF21C1244FF00BB6791 /* art.scnassets in Resources */,
+				D9310FCE1C18A7AF00CC1176 /* Normal.png in Resources */,
+				D9F67EF71C1244FF00BB6791 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F67EE41C1244FF00BB6791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F67EEE1C1244FF00BB6791 /* GameView.swift in Sources */,
+				D9F67EF01C1244FF00BB6791 /* GameViewController.swift in Sources */,
+				D9F67EEC1C1244FF00BB6791 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9F67EF51C1244FF00BB6791 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F67EF61C1244FF00BB6791 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9F67EF91C1244FF00BB6791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9F67EFA1C1244FF00BB6791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9F67EFC1C1244FF00BB6791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SolarEclipses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PomonaCollege.SolarEclipses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9F67EFD1C1244FF00BB6791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SolarEclipses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PomonaCollege.SolarEclipses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F67EE31C1244FF00BB6791 /* Build configuration list for PBXProject "SolarEclipses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F67EF91C1244FF00BB6791 /* Debug */,
+				D9F67EFA1C1244FF00BB6791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F67EFB1C1244FF00BB6791 /* Build configuration list for PBXNativeTarget "SolarEclipses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F67EFC1C1244FF00BB6791 /* Debug */,
+				D9F67EFD1C1244FF00BB6791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F67EE01C1244FF00BB6791 /* Project object */;
+}
